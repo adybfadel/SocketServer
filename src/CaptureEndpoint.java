@@ -44,13 +44,11 @@ public class CaptureEndpoint {
 							robot.keyPress(KeyEvent.VK_Q);
 							robot.delay(100);
 							robot.keyRelease(KeyEvent.VK_Q);
-						} else if ("camera1".equalsIgnoreCase(input.trim()
-								.toLowerCase())) {
+						} else if ("camera1".equalsIgnoreCase(input.trim().toLowerCase())) {
 							robot.keyPress(KeyEvent.VK_A);
 							robot.delay(100);
 							robot.keyRelease(KeyEvent.VK_A);
-						} else if ("camera2".equalsIgnoreCase(input.trim()
-								.toLowerCase())) {
+						} else if ("camera2".equalsIgnoreCase(input.trim().toLowerCase())) {
 							robot.keyPress(KeyEvent.VK_B);
 							robot.delay(100);
 							robot.keyRelease(KeyEvent.VK_B);
